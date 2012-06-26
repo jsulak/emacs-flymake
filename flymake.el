@@ -358,7 +358,7 @@ are the string substitutions (see `format')."
     ("\\.cs\\'" flymake-simple-make-init)
     ("\\.p[ml]\\'" flymake-perl-init)
     ("\\.php[345]?\\'" flymake-php-init)
-    ("\\.js\\'" flymake-javascript-init)
+    ;; ("\\.js\\'" flymake-javascript-init)
     ("\\.css\\'" flymake-css-init)
     ("\\.h\\'" flymake-master-make-header-init flymake-master-cleanup)
     ("\\.java\\'" flymake-simple-make-java-init flymake-simple-java-cleanup)
